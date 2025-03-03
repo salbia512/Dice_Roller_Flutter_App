@@ -1,6 +1,6 @@
-# fluut
+# Dice Roller Simple Flutter App
 
-A new Flutter project.
+A very new Flutter project.
 
 ## Getting Started
 
