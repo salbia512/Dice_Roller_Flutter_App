@@ -9,12 +9,13 @@ class GradientLayout extends StatelessWidget{
   Widget build(BuildContext context){
     return Container(
         decoration:const BoxDecoration(
-            gradient: LinearGradient(colors: [Colors.orange,Colors.pink,Colors.blue], begin: Alignment.topRight, end: Alignment.bottomRight)
+            gradient: LinearGradient(colors: [Colors.orange,Colors.pink,Colors.blue],
+                begin: Alignment.topRight, end: Alignment.bottomRight)
         ),
         child: DiceRoller()
              );
 
   }
 }
-//Text("You are pagal years old!! ", style: TextStyle(fontSize: 28, color: Colors.amber),)
+//Text("You are 5 years old!! ", style: TextStyle(fontSize: 28, color: Colors.amber),)
       
